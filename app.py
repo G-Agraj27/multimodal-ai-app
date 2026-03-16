@@ -7,7 +7,7 @@ import joblib
 st.title("Multimodal AI Disease Detection System")
 
 # Load models
-cnn_model = tf.keras.models.load_model("cnn_xray_model.h5")
+#cnn_model = tf.keras.models.load_model("cnn_xray_model.h5")
 patient_model = joblib.load("patient_model.pkl")
 
 st.header("Upload Chest X-ray Image")
